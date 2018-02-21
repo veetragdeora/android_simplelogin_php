@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.veetragdeora.e_business_project.MainActivity">
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/navigate"
+        android:title="@string/next"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_next"/>
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share App"
+        android:showAsAction="never"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+    <item
+        android:id="@+id/action_faq"
+        android:orderInCategory="100"
+        android:title="FAQ"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/contact_us"
+        android:orderInCategory="100"
+        android:title="Contact Us1"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_report"
+        android:orderInCategory="100"
+        android:title="Report Issue"
+        android:showAsAction="never"/>
+
+</menu>

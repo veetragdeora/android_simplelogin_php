@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.veetragdeora.e_business_project.FAQs"
+    tools:showIn="@layout/activity_faqs">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"></ScrollView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:maxLines="100"
+        android:text="Q1 Where should I self-ship the Returns? \n
+\n
+ You can send the return to any one of the\n
+ following returns processing facilities\n
+ depending on your location. Kindly do not\n
+ send it to on any other address as the\n
+ package would not be acceptable then.\n
+\n
+ ADDRESS 1:\n
+  E3-309, MS Hall\n
+  IIT Kharagpur\n
+\n
+ ADDRESS 2:\n
+  C-235, NH Hall\n
+  IIT Kharagpur\n
+\n
+Q2 What is the average shipping time?\n \n
+ Within 24 hours and it will be delivered to
+  your concerned address in 2-3 working days.\n\n
+Q3 What are the available payment options?\n\n
+ For the time being we have only cash on delivery as a payment option.\n\n
+Q4 How to report an issue?\n\n
+ Go to the top left corner and click, you will find an option “Report Issue” where in you can report your issue with e-mail id.
+\n\n
+Q5 What are the shipping charges?\n\n
+ Delivery charge varies with each Seller. Most sellers provide FREE delivery in India. Some items may have a shipping cost depending on the nature of the product.
+\n\n
+Q6 Does EBP deliver internationally ?\n\n
+ No, we don’t deliver outside India.\n\n
+Q7 How are items packaged?\n\n
+ All items are carefully packaged as to avoid any form of damage.
+
+"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp" />
+</RelativeLayout>
